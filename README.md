@@ -15,7 +15,7 @@ Each project is organized in its own folder for clarity. The folders contain:
    - Automatic text conversion and saving to a file
    - Easy-to-use interface
 
-2. *(Add more projects here in the future...)*
+2. *(I'll be adding more projects here in the future...)*
 
 ### 🚀 How to Use
 1. Clone the repository:
