@@ -10,7 +10,7 @@ pygame.display.set_caption("OMNITRIX AI")
 
 # Load Omnitrix Image
 omnitrix_img = pygame.image.load('omnitrix.png')
-omnitrix_img = pygame.transform.scale(omnitrix_img, (200, 200))  
+omnitrix_img = pygame.transform.scale(omnitrix_img, (100, 100))  
 
 # Omnitrix Position (Centered)
 x, y = WIDTH // 2 - 100, HEIGHT // 2 - 100
@@ -20,7 +20,7 @@ BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
 
 # Pulse Animation State
-pulse = True
+pulse = False
 
 # Function to Update Pulse State
 def update_pulse(state):
