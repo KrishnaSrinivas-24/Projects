@@ -5,7 +5,7 @@ from omnitrix_gui import update_pulse
 # Run Speech Recognition in a Separate Thread
 def voice_thread():
     while True:
-        listen(update_pulse)  # Listen for commands & trigger UI
+        listen(omnitrix_gui.update_pulse)  # Listen for commands & trigger UI
 
 # Start Voice Processing
 threading.Thread(target=voice_thread, daemon=True).start()
