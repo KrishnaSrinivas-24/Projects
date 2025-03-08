@@ -5,7 +5,7 @@ import pyttsx3
 import threading
 
 # ========== SET UP GEMINI AI ==========
-API_KEY = "AIzaSyC5hmkjhZknvBHVnxXwavOie7BiJLYR8Vc"  # Replace with your actual key
+API_KEY = "YOUR API KEY"  # Replace with your actual key
 genai.configure(api_key=API_KEY)
 
 try:
