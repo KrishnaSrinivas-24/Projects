@@ -20,7 +20,7 @@ BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
 
 # Pulse Animation State
-pulse = False
+pulse = True
 
 # Function to Update Pulse State
 def update_pulse(state):
